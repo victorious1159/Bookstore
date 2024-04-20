@@ -54,8 +54,7 @@ public class Main {
             System.out.println("2. Add a new to list of Books");
             System.out.println("3. Order");
             System.out.println("4. Order View");
-            System.out.println("5. Search a Book");
-            System.out.println("6. Exit store");
+            System.out.println("5. Exit store");
 
 
             System.out.print("Your choice: ");
@@ -83,10 +82,6 @@ public class Main {
                     showOrderDetailMenu(orderController);
                     break;
                 case 5:
-                    // Tìm sách
-                    System.out.println("Searching a Book...");
-                    break;
-                case 6:
                     // Thoát khỏi cửa hàng
                     System.out.println("Exiting store..." );
                     break;
